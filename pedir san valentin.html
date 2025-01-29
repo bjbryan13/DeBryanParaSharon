@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de bryan para sharon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #fcd5ce;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            color: #e63946;
+            font-family: 'Georgia', serif;
+        }
+
+        .ticket-button {
+            background-color: #e63946;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            border: 2px solid #d62828;
+        }
+
+        .ticket-button:hover {
+            background-color: #d62828;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .icon-item {
+            text-align: center;
+        }
+
+        .icon-item img {
+            margin: auto;
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            background-color: #fff;
+        }
+
+        .highlight-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .highlight-section li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .highlight-section li img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+            border: 2px solid #e63946;
+            border-radius: 50%;
+            padding: 5px;
+            background-color: #fff;
+        }
+
+        .highlight-section span {
+            color: #e63946;
+            font-family: 'Georgia', serif;
+            font-size: 1.25rem;
+        }
+
+        .highlight-section p {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .ticket-section {
+            border: 2px solid #e63946;
+            border-radius: 1rem;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .ticket-section p {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="max-w-xl mx-auto py-10">
+        <div class="header shadow-lg">
+            <p class="text-2xl italic highlight">Para el amor de mi vida</p>
+            <h1 class="text-2xl font-bold highlight">¿Quieres ser mi san valentin?</h1>
+            <button id="yesButton" class="ticket-button">Sí</button>
+            <button id="noButton" class="ticket-button">No</button>
+
+            <p id="message"></p>
+
+            <div class="mt-5">
+                <img src="./love.png" alt="Valentine's Gift" class="mx-auto rounded-full">
+            </div>
+            <div class="icon-container mt-5">
+                <div class="icon-item">
+                    <img src="./calendario.png" alt="Calendar Icon">
+                    <p>Febrero 14, 2025</p>
+                </div>
+                <div class="icon-item">
+                    <img src="./reloj.png" alt="Clock Icon">
+                    <p>7:00 PM </p>
+                </div>
+                <div class="icon-item">
+                    <img src="./localizacion.png" alt="Location Icon">
+                    <p>Adivina, 23</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold text-center highlight">Un Día Solo Para Nosotros
+            </h2>
+            <div class="highlight-section">
+                <ul>
+                    <li>
+                        <span>💫 Un Día Especial, Solo Tú y Yo
+                        </span>
+                        <p>Quiero que reserves ese día, porque será el nuestro. Un día donde no existe nada más que tú y
+                            yo, donde cada segundo
+                            será una promesa de amor sin medida. No habrá espacio para nada más, ni para nadie más. Solo
+                            tú, yo y el universo de amor que hemos creado juntos. Este será
+                            un día donde, por fin, nos damos cuenta de que el tiempo no importa cuando estamos juntos.
+                            Este será un día en el que el tiempo se detendrá, y no
+                            habrá nada en el mundo que
+                            importe más que nuestro amor.</p>
+                    </li>
+                    <li>
+                        <span>💖 Un Día Para Enamorarnos de Nuevo
+                        </span>
+                        <p>En ese día, quiero que sintamos lo que significa estar verdaderamente conectados. No solo a
+                            través de palabras, sino a
+                            través de todo lo que somos. Ese día, quiero que tú y yo, sin decirlo, entendamos que amar
+                            es no tener barreras. Es ser
+                            completamente nosotros, sin miedo a dar todo lo que somos. Mi amor por ti no tiene límites,
+                            y estoy aquí para que
+                            sientas que tú también me entregas lo mismo: un amor total, sin reservas.</p>
+                    </li>
+                    <li>
+                        <span>🌹 Un Amor Sin Fronteras, Sin Límites
+                        </span>
+                        <p>Este día es para demostrar que el amor verdadero no entiende de obstáculos ni barreras. No
+                            existen los límites entre
+                            nosotros. Todo lo que somos, todo lo que tenemos, lo entregamos sin miedo, sin temor a
+                            perder. Porque en el amor que nos
+                            une, no hay espacio para la duda. Es solo el amor puro, el que nos hace más fuertes, el que
+                            nos hace ser lo mejor el uno
+                            para el otro.</p>
+                    </li>
+                    <li>
+                        <span>📵 Sin Distracciones, Solo Nosotros
+                        </span>
+                        <p>Ese día, desconectamos de todo lo que nos rodea. No necesitamos nada más que el uno al otro.
+                            Los celulares solo estarán
+                            para capturar recuerdos, porque lo importante será el momento presente, cada mirada, cada
+                            gesto, cada palabra que
+                            compartimos. Sin barreras, solo nosotros, disfrutando de ese día que es solo para ti y para
+                            mí.</p>
+                    </li>
+                    <li>
+                        <span>💫 El Amor es Darlo Todo, Juntos
+                        </span>
+                        <p>Lo que quiero que sientas es que, en ese día, no solo soy yo quien te da todo, sino que tú
+                            también me das todo lo que
+                            tienes, y lo hacemos sin reservas. Ese día será una celebración de todo lo que somos juntos:
+                            dos almas que se entregan
+                            por completo, que no necesitan nada más que estar el uno para el otro. Ese amor es el
+                            reflejo de nuestra voluntad de
+                            darnos mutuamente, sin esperar nada más que el amor en su forma más pura.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-center mt-5">
+                <p>💖[Un Día Solo Para Nosotros]💖</p>
+                <p>
+                    Ese día será la prueba de que no hay nada que se interponga entre nosotros, ni distancia, ni tiempo,
+                    ni barreras. Solo
+                    existe el amor que nos une, que nos envuelve, que nos hace ser uno solo. Ese es el día donde no hay
+                    límites, solo
+                    nosotros, nuestro amor y todo lo que podemos dar el uno al otro.</p>
+                <a href="https://vm.tiktok.com/ZMkX37VRf/" target="_blank">
+                    <button class="ticket-button">Porque lo nuestro es más que mágico.</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const yesButton = document.getElementById('yesButton');
+        const noButton = document.getElementById('noButton');
+        const message = document.getElementById('message');
+
+        // Mostrar mensaje romántico al hacer click en "Sí"
+        yesButton.addEventListener('click', () => {
+            message.textContent = "¡Te amo mucho! Entonces escríbeme al chat, LOVE LOVE LOVE ❤️";
+        });
+
+        // Hacer que el botón "No" se mueva al acercar el cursor
+        noButton.addEventListener('mouseover', () => {
+            const x = Math.random() * window.innerWidth * 0.8;
+            const y = Math.random() * window.innerHeight * 0.8;
+            noButton.style.position = 'absolute';
+            noButton.style.left = `${x}px`;
+            noButton.style.top = `${y}px`;
+        });
+    </script>
+</body>
+
+</html>
